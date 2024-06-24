@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--this is the head of a html file primarily responsible for meta elements and the title also linking things to the html file-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--the title for the website-->
+    <title>click me!</title>
+    <!--this links the css file to the html-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!--this is the body of the html file this is used for the main content of the html file/website-->
+<body id="body">
+    <section class="current-level-container">
+        <h2 id="currentLevel"><span class="activeLevel">Current Level is</span> LVL 1</h2>
+    </section>
+    <!--a section is used for better html structure good practice for better reading of the code its just used for defining different sections of content-->
+    <section>
+        <div class="container">
+            <!--labels are usually used to add text to things like inputs or buttons has different uses as well-->
+            <label class="label-text" id="label" for="increase">0</label>
+            <!--buttons are pretty self explanitory however there is a few tricks you can do with buttons-->
+                     <!--the class--><!--the id--><!--the onclick function for the button-->
+            <button class="buttons" id="increase" onclick="increase()">Click me👹</button>
+            <!--a button to reset the counter-->
+            <button class="buttons1" onclick="reset()">Reset🔄</button>
+        </div>
+    </section>
+    <!--this is linking the script.js file to the html file-->
+    <script src="script.js"></script>
+</body>
+</html>

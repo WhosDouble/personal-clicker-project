@@ -1,0 +1,72 @@
+/*changing the background of the body to a color*/
+body{
+    background:#1b1b1b;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+body img{
+    width: 100%;
+}
+/*this is the container class its oushing its content to the center and giving each element a gap of 20px between the other elements*/
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15%;
+    gap: 20px;
+}
+/*changing the size and color of the label*/
+.label-text{
+    font-size: 67px;
+    color: #fff;
+}
+/*changing the size and modifing the buttons*/
+.buttons{
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 400px;
+    transition: 0.2s;
+}
+.buttons1{
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 400px;
+    transition: 0.2s;
+    background: #fff;
+}
+/*psuedo class to change the buttons when the mouse hovers it*/
+.buttons:hover{
+    transform: scale(105%);
+    transition: 0.2s;
+}
+/*psuedo class to change the buttons when the mouse clicks it*/
+.buttons:active{
+    transform: scale(95%);
+    transition: 0.2s;
+}
+/*changing the main increase button*/
+.the-button{
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+/*changing current level display*/
+.current-level-container{
+    background: #8a8a8a;
+    padding: 0.3em;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 0px black;
+}
+.activeLevel{
+    color: #454545;
+}
